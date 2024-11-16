@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatsumotoBakeshop</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="POSTER.png" type="image/x-icon">
+</head>
+<body>
+  <!-- navigation bar here -->
+ <nav class="navbar">
+  <div class="main">
+    <div class="icon">
+      <h2 class="logo">MATSUMOTO BAKESHOP</h2>
+    </div>
+     <div>
+        <ul>
+            <li><a  href="#home">HOME</a></li>
+            <li><a  href="#product">PRODUCT</a></li>
+            <li><a  href="#about">ABOUT US</a></li>
+        </ul>
+      </div>
+
+      <div class="search">
+        <input class="srch" type="search" name="" placeholder="Type to text" id="find" value="" onchange="openDiv()">
+        <a href="#"><button class="btn" onclick="find()">SEARCH</button></a>
+      </div>
+  </div>
+</nav>
+
+<!--HOME CONTENT  -->
+<div class="home">
+  <section id="home">
+    <div class="home-content">
+      <h1>Where every bite brings a little sunshine<br> and a touch of the sky.</h1>
+      <h2>Freshly baked, Beautifully crafted.</h2>
+        <button class="home-btn" onclick="openPopup()">Know More</button>
+          <div class="popup" id="popup">
+            <h2>HELLO!!!</h2>
+            <p>To discover the delicious story behind our bakeshop, where passion for baking
+              meets quality ingredients to create mouthwatering treats. From timeless classics to
+              seasonal specialties, we invite you to experience the care and craftmanship in every
+              bite. Visit us and to learn more about the heart of our bakery
+            </p>
+            <button class="button" onclick="closePopup()">Ok</button>
+          </div>
+        
+
+    </div>
+  </section> 
+</div>
+
+<!-- Product content -->
+  <section aria-label="Top Product" id="product">
+    <div class="carousel" data-carousel>
+      <h1>Product Bread</h1>
+      <button class="carousel-button prev" data-carousel-button="prev">&#x276E</button>
+      <button class="carousel-button next" data-carousel-button="next">&#x276F</button>
+      <ul data-slides>
+        <li class="slides" data-active>
+          <img src="./img/spanish.jpeg" alt="Product1">
+          <h2>SPANISH BREAD</h2>
+        </li>
+        <li class="slides">
+          <img src="./img/star.jpeg" alt="Product2">
+          <h2>STAR BREAD</h2>
+        </li>
+        <li class="slides">
+          <img src="./img/donut.jpeg" alt="Product3">
+          <h2>DOUGHNUT 3</h2>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About content -->
+   <div class="about">
+    <section id="about">
+      <div class="about-content">
+        <img src="./img/about.jpg" alt="Picture of the bakeshop">
+        <p>Welcome to MatsumotoBakeshop, where every bite is a celebration of flavor, 
+          quality, and love! Nestled in the heart of Brgy. Bunga, Cabucgayan, Biliran, 
+          our bakeshop is dedicated to crafting delightful treats that bring people together.
+          From warm, flaky pastries to decadent cakes and freshly baked breads, each 
+          creation is made with the finest ingredients and a passion for perfection. 
+          Whether you’re celebrating life’s big moments or simply indulging in a sweet escape, 
+          we’re here to make every experience special.
+          At MatsumotoBakeshop, we believe in the magic of baking and the joy it brings. 
+          Stop by and taste the difference today!</p>
+      </div>
+    </section>
+   </div>
+   
+</body>
+</html>
