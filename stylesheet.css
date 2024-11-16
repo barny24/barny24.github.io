@@ -4,7 +4,7 @@
   padding: 0;
 }
 body{
-  background-image: linear-gradient(rgba(241, 115, 37, 0.5),rgba(0,0,0,0.50)),url("./img/background.jpg");
+  background-image: linear-gradient(rgba(241, 115, 37, 0.5),rgba(0,0,0,0.50)),url("background.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -219,7 +219,7 @@ ul li a:hover{
   margin-top: 50px;
   border-radius: 100px;
   top: 25px;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/home.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(home.jpg);
   background-position: center;
   background-size: cover;
   left: 75px;
